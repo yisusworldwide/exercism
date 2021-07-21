@@ -10,7 +10,7 @@ export const colorCode = (color) => {
             return i
         }
     }
-    throw error('color not found');
+    throw new Error('Color not found');
 };
 
 export const COLORS = [
